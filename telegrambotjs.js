@@ -26,7 +26,7 @@ var arr = [];
 const fs = require('fs');
 const readline = require('readline');
 const TelegramBot = require('node-telegram-bot-api'); 
-const token = '1349997165:AAGeWD5Ka01QgMpw35pmsJRVl0NdYUx6okw';
+const token = '<TOKEN>';
 const bot = new TelegramBot(token, {polling: true});
 const {
     membersList,
